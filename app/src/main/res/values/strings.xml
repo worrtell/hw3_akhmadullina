@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PRACTICE</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_screen">main</string>
+    <string name="first_screen">search</string>
+    <string name="history_screen">history</string>
+    <string name="home_screen">home</string>
+    <string name="settings_screen">settings</string>
+    <string name="profile_screen">profile</string>
+    <string name="enter">enter vinyl name...</string>
+    <string name="find">find</string>
+</resources>
