@@ -4,6 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintCircleRadius="12dp"
     tools:context=".HistoryFragment">
 
     <TextView
@@ -15,6 +18,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_vinyls"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:listitem="@layout/item_vinyl"
+        tools:itemCount="3"
+        app:layout_constraintTop_toBottomOf="@+id/tv_history_Title" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

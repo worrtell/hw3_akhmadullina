@@ -1,6 +1,8 @@
 package ru.itis.practice
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
@@ -25,7 +27,6 @@ class MainActivity : AppCompatActivity() {
         controller?.let { navController ->
             binding?.bottomNavigation?.setupWithNavController(navController)
         }
-
     }
 
     override fun onBackPressed() {
