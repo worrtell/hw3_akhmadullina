@@ -43,8 +43,6 @@ class HistoryFragment : Fragment(R.layout.fragment_history) {
                 }
             )
 
-
-
             rvVinyls.adapter = adapter
 
             rvVinyls.layoutManager = LinearLayoutManager(requireContext())
