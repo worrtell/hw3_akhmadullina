@@ -18,8 +18,9 @@ class LinkFragment : Fragment(R.layout.fragment_link) {
         binding?.run {
             val id = Integer.parseInt(arguments?.getString("id"))
             val vinyl = VinylRepository.vinyls[id-1]
-            tvLinkInfo.text = "TRACK LIST\n\n${vinyl.info}"
-            tvLinkTitle.text = "${vinyl.name}\n${vinyl.singer}"
+            tvLinkSinger.text = vinyl.singer
+            tvLinkTitle.text = vinyl.name
+            tvLinkInfo.text = "\tTRACK LIST\t\n\n${vinyl.info}"
 
             context?.let { Glide
                 .with(it.applicationContext)

@@ -17,15 +17,11 @@ object VinylRepository {
                     "The Bewlay Brothers"),
         Vinyl(2, "The Rise And Fall Of Ziggy Stardust", "David Bowie",
             "https://upload.wikimedia.org/wikipedia/ru/thumb/5/55/Ziggy_Stardust_cover.jpg/800px-Ziggy_Stardust_cover.jpg",
-            "Side one\n" +
-                    "\n" +
-                    "\"Five Years\"  – 4:42\n" +
+               "\"Five Years\"  – 4:42\n" +
                     "\"Soul Love\"  – 3:34\n" +
                     "\"Moonage Daydream\"  – 4:40\n" +
                     "\"Starman\"  – 4:10\n" +
                     "\"It Ain't Easy\"  – 2:58\n" +
-                    "Side two\n" +
-                    "\n" +
                     "\"Lady Stardust\"  – 3:22\n" +
                     "\"Star\"  – 2:47\n" +
                     "\"Hang On to Yourself\"  – 2:40\n" +
@@ -34,15 +30,11 @@ object VinylRepository {
                     "\"Rock 'n' Roll Suicide\"  – 2:58"),
         Vinyl(3, "Aladdin Sane", "David Bowie",
             "https://sun9-14.userapi.com/impg/dU6Nt7cLdm9vZ5x8jfHOMLlw18ARx6F00fTmdg/m01Ba5v05TM.jpg?size=807x791&quality=95&sign=aad331e8ee6d01e696c0e1c767d44a9d&c_uniq_tag=nvdhv6WDQlDKE2IZPteRgp4kVeRvP8AOQJDfxb4fC30&type=album",
-            "Side one\n" +
-                    "\n" +
                     "\"Watch That Man\" – 4:30\n" +
                     "\"Aladdin Sane (1913–1938–197?)\" – 5:06\n" +
                     "\"Drive-In Saturday\" – 4:33\n" +
                     "\"Panic in Detroit\" – 4:25\n" +
                     "\"Cracked Actor\" – 3:01\n" +
-                    "Side two\n" +
-                    "\n" +
                     "\"Time\" – 5:15\n" +
                     "\"The Prettiest Star\" – 3:31\n" +
                     "\"Let's Spend the Night Together\" – 3:10\n" +
@@ -76,12 +68,12 @@ object VinylRepository {
                     "«Memory of a Free Festival» — 7:05"),
         Vinyl(6, "Let's Dance", "David Bowie", "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/David-bowie-lets-dance.jpg/220px-David-bowie-lets-dance.jpg",
             "«Modern Love» — 4:46\n" +
-                    "«China Girl» (Дэвид Боуи, Игги Поп) — 5:32\n" +
+                    "«China Girl» — 5:32\n" +
                     "«Let’s Dance» — 7:38\n" +
                     "«Without You» — 3:08\n" +
                     "«Ricochet» — 5:14\n" +
-                    "«Criminal World» (Питер Гудвин, Данкан Браун, Шон Лионс) — 4:25\n" +
-                    "«Cat People (Putting Out Fire)» (Дэвид Боуи, Джорджо Мородер) — 5:09\n" +
+                    "«Criminal World»  — 4:25\n" +
+                    "«Cat People (Putting Out Fire)» — 5:09\n" +
                     "«Shake It» — 3:49"),
         Vinyl(7, "Young Americans", "David Bowie", "https://upload.wikimedia.org/wikipedia/ru/b/b5/Young_americans.jpg",
             "«Young Americans»\t \t5:11\n" +
