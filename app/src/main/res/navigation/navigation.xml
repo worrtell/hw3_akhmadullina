@@ -56,6 +56,9 @@
         <action
             android:id="@+id/action_historyFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_historyFragment_to_linkFragment"
+            app:destination="@id/linkFragment" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
@@ -67,4 +70,13 @@
         android:name="ru.itis.practice.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/linkFragment"
+        android:name="ru.itis.practice.LinkFragment"
+        android:label="fragment_link"
+        tools:layout="@layout/fragment_link" >
+        <action
+            android:id="@+id/action_linkFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
 </navigation>

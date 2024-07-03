@@ -37,7 +37,7 @@ class HistoryFragment : Fragment(R.layout.fragment_history) {
                     val bundle = Bundle()
                     bundle.putString("id", it.id.toString())
                     findNavController().navigate(
-                        R.id.action_historyFragment_to_homeFragment,
+                        R.id.action_historyFragment_to_linkFragment,
                         args = bundle
                     )
                 }
